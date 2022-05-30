@@ -61,7 +61,8 @@ function App() {
     <div className="container my-5">
       <h3 className='text-center text-primary'>Admin Control (Video Call)</h3>
       <h5 className='text-danger text-bold mt-5'>No of people join -({realData.length})</h5>
-      <div class="card shadow" style={{border:'none',outline:'none'}}>
+
+      <div class="card shadow" style={{ border: 'none', outline: 'none' }}>
         <div class="card-body">
           <table class="table">
             <thead>
@@ -133,6 +134,7 @@ function App() {
           </table>
         </div>
       </div>
+      <h5 className='text-danger text-bold mt-5'>join id " -N2uPUf722bPbIXTvo3T "</h5>
     </div>
   );
 }
