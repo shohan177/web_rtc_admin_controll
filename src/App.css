@@ -1,13 +1,26 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F2EDF3;
+    /* background-color: #F2EDF3; */
+    font-family: 'Open Sans', sans-serif;
 }
-.table td {
-    text-align: center;   
- }
 
- .table th {
-    text-align: center;   
- }
+.table td {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+.page-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+}
