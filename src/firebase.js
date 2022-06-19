@@ -6,16 +6,18 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCfYVDGoIR3-fU4yQrguq7d1EyDJgv9BxE",
-    authDomain: "livechatdatabase.firebaseapp.com",
-    databaseURL:
-        "https://livechatdatabase-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "livechatdatabase",
-    storageBucket: "livechatdatabase.appspot.com",
-    messagingSenderId: "1040328045300",
-    appId: "1:1040328045300:web:cd13a33e3e730f60ebe4a1"
-};
+    apiKey: "AIzaSyBA2uo-53deRIPjKrdV_mOH_UBMihGDEIw",
+    authDomain: "livevideocall-updated.firebaseapp.com",
+    databaseURL: "https://livevideocall-updated-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "livevideocall-updated",
+    storageBucket: "livevideocall-updated.appspot.com",
+    messagingSenderId: "19673148748",
+    appId: "1:19673148748:web:7085f8836af31ec83f73e9"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
+
+
+
